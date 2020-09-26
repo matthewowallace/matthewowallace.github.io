@@ -59,8 +59,8 @@
 }
 
 .con-menu button{
-    padding: 12px;
-    width: cal(50% - 4px);
+    padding: 12px 25px;
+    width: cal(40% - 10px);
     border: 0px;
     background: transparent;
     font-weight: bold;
