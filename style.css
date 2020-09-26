@@ -60,7 +60,7 @@
 
 .con-menu button{
     padding: 12px 25px;
-    width: cal(40% - 10px);
+    width: cal(50% - 10px);
     border: 0px;
     background: transparent;
     font-weight: bold;
@@ -88,12 +88,12 @@
     flex:1;
     height: 100%;
     position: relative;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .con-links a{
     display: block;
-    width: 80%;
+    width: 60%;
     padding: 18px 22px;
     text-decoration: none;
     font-size: 1rem;
