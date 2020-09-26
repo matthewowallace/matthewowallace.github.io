@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600&display=swap');
+
 .avatar img{
     width: 100px;
     border-radius: 30px;
@@ -51,9 +53,9 @@
 }
 
 .con-menu button.active {
-    background: #fff;
+    background: #452c63;;
     box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.06);
-    color: #452c63;
+    color: #fff;
 }
 
 .con-menu button{
@@ -65,9 +67,13 @@
     color: #303030;
     font-size: 1rem;
     transition: all .25s ease;
-    box-shadow: 0px 0px 8px 8px;
+    /* box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5); */
     border-radius: 16px;
     z-index: 2; 
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
 }
 
 .con-contents{
@@ -87,7 +93,7 @@
 
 .con-links a{
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 18px 22px;
     text-decoration: none;
     font-size: 1rem;
@@ -97,9 +103,11 @@
     justify-content: center;
     background: #452c63;
     margin-bottom: 16px;
-    border-radius: 25px;
+    border-radius: 7px;
     position: relative;
-    box-shadow: 0px 10px 30px 0px #452c6380;
+    box-shadow: 0px 2px 10px 0px #452c6380;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
 }
 
 .con-links a img{
