@@ -135,7 +135,7 @@
     justify-content: flex-start;
     flex-direction: column;
     padding-top: 0px;
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     margin: auto;
     min-width: 100%;
@@ -165,6 +165,7 @@
     box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.08);
     margin-top: 20px;
     margin-bottom: 20px; 
+    margin-left: 80px;
 }
 
 .con-posts .post footer{
@@ -205,7 +206,7 @@
     scroll-snap-align: center;
     overflow: auto;
     padding-bottom: 30px;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .con-posts .posts .effect{
@@ -214,4 +215,12 @@
     height: 150px;
     width: 100%;
     background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(0,0,0,0.001) 100%);
+}
+
+.con-links .blue{
+    background-color: royalblue;
+}
+
+.con-links .black{
+    background-color: #303030;
 }
